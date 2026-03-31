@@ -1,0 +1,7 @@
+{
+  "name": "Marizzo - Ristorante Pizzeria",
+  "description": "Sito web professionale per il Ristorante Pizzeria Marizzo a Milano Centrale. Eccellenza nella cucina e pizza italiana con oltre 20 anni di esperienza.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

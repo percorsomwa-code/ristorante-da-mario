@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Montserrat", sans-serif;
+  
+  --color-gold: #C5A059;
+  --color-dark: #0A0A0A;
+  --color-paper: #F5F2ED;
+}
+
+@layer base {
+  body {
+    @apply bg-dark text-paper font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, .serif {
+    @apply font-serif;
+  }
+}
+
+.glass-nav {
+  @apply bg-dark/80 backdrop-blur-md border-b border-white/10;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-gold to-white;
+}
+
+.btn-primary {
+  @apply bg-gold text-dark px-8 py-3 rounded-none font-semibold uppercase tracking-widest transition-all hover:bg-white hover:scale-105 active:scale-95;
+}
+
+.btn-outline {
+  @apply border border-gold text-gold px-8 py-3 rounded-none font-semibold uppercase tracking-widest transition-all hover:bg-gold hover:text-dark;
+}
