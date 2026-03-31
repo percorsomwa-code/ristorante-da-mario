@@ -114,7 +114,7 @@ const Hero = () => {
           transition={{ delay: 0.4 }}
           className="text-6xl md:text-8xl serif mb-8 leading-tight"
         >
-          L'Essenza della <br /> <span className="italic text-gold">Cucina Italiana</span>
+          L'Essenza della <br /> <span className="italic text-gold">Cucina Italiana con Mario</span>
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0 }}
